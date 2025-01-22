@@ -5,10 +5,12 @@ import ScrollProgressBar from './ScrollProgressBar'
 import About from './About'
 import Experience from './Experience'
 import Footer from './Footer'
+import Form from './Form'
 import SplineBackground from './SplineBackground'
 import Hero from './Hero'
 import Skills from './Skills'
 import '../app/globals.css';
+// import { Form } from 'react-hook-form'
 export default function MainLayout() {
   const [isVisible, setIsVisible] = useState(false)
 
@@ -30,6 +32,7 @@ export default function MainLayout() {
         <About />
         <Experience />
         <Skills />
+        <Form/>
         <Footer />
       </div>
     </div>
